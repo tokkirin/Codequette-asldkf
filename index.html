@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- title page-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+
+  
+</head>
+<body class="Home">
+  
+    <header class="header">
+
+
+      
+        <nav>
+            <!--LOGO GOES HERE-->
+            <div class="nav-container">
+                <a href="index.html" class="logo"><img src="assets/long logo.png" alt="Logo"></a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="Apply.html" class="nav-link">Apply</a></li>
+                    <li class="nav-item"><a href="About Us.html" class="nav-link">About Us!</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+  
+    <div class="home-container">
+        <div class = "Information">
+          <img id = "cute_Bear" src="assets/cute bear.png" alt="photo of a cute bear drawing">
+          <div>
+            <h2>What is Code-quette?</h2>
+            <p>The Code-quette is a group of women studying Computer Science who aim to educate the less priviledged population on the power and benefits of learning Computer Science. We aspire to use our tools and knowledge to connect mentees and mentors, and together, we can create a community of capable, creative, and innovative coders.</p>
+          </div>
+        </div>
+        <div class ="Information">
+          <img id ="cute_Bunny" src="assets/cute bunny.png" alt="photo of a cute bunny drawing">
+          <div>
+            <h2>The Benefits of Building a Female-Empowered Community</h2>
+            <p> With how the STEM fields are typically male-dominated, Codequettes strives to encourage more women to pursue Computer Science by providing the needed resources and opportunities for girls to learn and grow through the mentorship program. We hope through this program, more girls can become inspired to join in the field of technology and become the future leaders of the field.
+            </p>
+          </div>
+        </div>
+    </div>
+  <div class = "squareLogo-container">
+
+   
+    <div class="quote">
+      <!--quotes-->
+      <ul id="quote-list">
+          <li class="quote"></li>
+      </ul>
+    </div>
+  </div>
+
+
+  
+    <footer>
+        <p style="text-align:center;">&copy; 2024 Codequettes. All rights reserved.</p>
+    </footer>
+
+
+  
+    
+    <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+
+
+
+  <!--JAVA SCRIPT FOR QUOTES -->
+  <script src="script.js"></script>
+  <!-- Include the following script for auto-scrolling on page load -->
+  <script>
+    // Your auto-scrolling function here
+    function scrollToBottom() {
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+    // Call the function when the page loads
+    window.onload = function () {
+      scrollToBottom();
+      scrollThroughQuotes(); // Call the scrollThroughQuotes function
+    };
+  </script>
+
+  
+
+
+</body>
+</html>
